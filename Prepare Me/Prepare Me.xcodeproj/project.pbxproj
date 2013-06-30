@@ -24,7 +24,7 @@
 		A8996C381780C55F00FBAD92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8996C101780C55F00FBAD92 /* Foundation.framework */; };
 		A8996C401780C55F00FBAD92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8996C3E1780C55F00FBAD92 /* InfoPlist.strings */; };
 		A8996C431780C55F00FBAD92 /* Prepare_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8996C421780C55F00FBAD92 /* Prepare_MeTests.m */; };
-		A8996C5A1780C82900FBAD92 /* ContactData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8996C591780C82900FBAD92 /* ContactData.m */; };
+		A8F20F9F1780C9AC004985E6 /* ContactData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F20F9E1780C9AC004985E6 /* ContactData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +61,8 @@
 		A8996C3F1780C55F00FBAD92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8996C411780C55F00FBAD92 /* Prepare_MeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prepare_MeTests.h; sourceTree = "<group>"; };
 		A8996C421780C55F00FBAD92 /* Prepare_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prepare_MeTests.m; sourceTree = "<group>"; };
-		A8996C581780C82900FBAD92 /* ContactData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactData.h; sourceTree = "<group>"; };
-		A8996C591780C82900FBAD92 /* ContactData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactData.m; sourceTree = "<group>"; };
+		A8F20F9D1780C9AC004985E6 /* ContactData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactData.h; path = data/ContactData.h; sourceTree = "<group>"; };
+		A8F20F9E1780C9AC004985E6 /* ContactData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactData.m; path = data/ContactData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,8 +170,8 @@
 		A8996C4C1780C57300FBAD92 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				A8996C581780C82900FBAD92 /* ContactData.h */,
-				A8996C591780C82900FBAD92 /* ContactData.m */,
+				A8F20F9D1780C9AC004985E6 /* ContactData.h */,
+				A8F20F9E1780C9AC004985E6 /* ContactData.m */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 				A8996C1B1780C55F00FBAD92 /* main.m in Sources */,
 				A8996C1F1780C55F00FBAD92 /* prepmeAppDelegate.m in Sources */,
 				A8996C2E1780C55F00FBAD92 /* prepmeViewController.m in Sources */,
-				A8996C5A1780C82900FBAD92 /* ContactData.m in Sources */,
+				A8F20F9F1780C9AC004985E6 /* ContactData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +482,7 @@
 				A8996C481780C55F00FBAD92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8996C491780C55F00FBAD92 /* Build configuration list for PBXNativeTarget "Prepare MeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				A8996C4B1780C55F00FBAD92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
